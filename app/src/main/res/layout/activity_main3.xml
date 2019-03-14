@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="6"
+    tools:context=".Main3Activity">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t01"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:text="@string/t01" />
+
+        <TextView
+            android:id="@+id/t07"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="@string/t07" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t02"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:text="@string/t02" />
+
+        <TextView
+            android:id="@+id/t08"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="end"
+            android:text="@string/t08" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t03"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle1"
+            android:text="@string/t03" />
+        <TextView
+            android:id="@+id/t09"
+            android:layout_width="287dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle1"
+            android:gravity="end"
+            android:text="@string/t09" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t04"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/t04" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t05"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle1"
+            android:text="@string/t05" />
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="287dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle1"
+            android:gravity="end"
+            android:text="@string/t10" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/t06"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/t06" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>

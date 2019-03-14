@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">2_1_number</string>
+    <string name="btn_1">One,One</string>
+    <string name="btn_2">One,Two</string>
+    <string name="btn_3">One,Three</string>
+    <string name="btn_4">One,Four</string>
+    <string name="btn_5">Two,One</string>
+    <string name="btn_6">Two,Two</string>
+    <string name="btn_7">Two,Three</string>
+    <string name="btn_8">Two,Four</string>
+    <string name="btn_9">Three,One</string>
+    <string name="btn_10">Three,Two</string>
+    <string name="btn_11">Three,Three</string>
+    <string name="btn_12">Three,Four</string>
+    <string name="btn_13">Four,One</string>
+    <string name="btn_14">Four,Two</string>
+    <string name="btn_15">Four,Three</string>
+    <string name="btn_16">Four,Four</string>
+
+    <string name="t1">RED</string>
+    <string name="t2">ORANGE</string>
+    <string name="t3">YELLOW</string>
+    <string name="t4">GREEN</string>
+    <string name="t5">BLUE</string>
+    <string name="t6">INDIGO</string>
+    <string name="t7">VIOLET</string>
+
+    <string name="t01">Open</string>
+    <string name="t02">Save</string>
+    <string name="t03">Save As</string>
+    <string name="t04">x Import</string>
+    <string name="t05">x Export</string>
+    <string name="t06">Quit</string>
+    <string name="t07">Ctrl-O</string>
+    <string name="t08">Ctrl-S</string>
+    <string name="t09">Ctrl-Shift-S</string>
+    <string name="t10">Ctrl-E</string>
+
+</resources>
