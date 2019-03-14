@@ -420,5 +420,35 @@ LinearLayout,ConstraintLayout,TableLayout
 
 ![image](https://github.com/Peiqiye/image/blob/master/TableLayout.png)
 
+注：因为我的三个不同界面实现放在同一个项目中，运行时需要实现项目界面的跳转。在MainActivity.java中实现，具体代码如下：
+
+package com.example.asus.a2_1_number;
+
+import android.net.Uri;
+import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button button=(Button) findViewById(R.id.btn_1);  //点击第一个按钮实现界面跳转，跳转到下一个界面中
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Main2Activity.class); //跳转从MainActivity到Main2Activity
+                startActivity(intent);
+
+            }
+        });
+    }
+}
+
+
 
 
