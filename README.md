@@ -184,7 +184,7 @@ LinearLayout,ConstraintLayout,TableLayout
 
 </LinearLayout>
 运行结果：
-
+![image]()
 ------------------------------------------------------------------------------
 
 2.利用约束布局实现界面。
@@ -306,6 +306,8 @@ LinearLayout,ConstraintLayout,TableLayout
 
 
 </android.support.constraint.ConstraintLayout>
+运行结果：
+![image]()
 ------------------------------------------------------------------------------
 3.利用表格布局实现界面。
 主要代码：
@@ -406,5 +408,6 @@ LinearLayout,ConstraintLayout,TableLayout
 
     </TableRow>
 </TableLayout>
-
+运行结果：
+![image]()
 
