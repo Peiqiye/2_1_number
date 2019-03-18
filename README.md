@@ -2,6 +2,7 @@
 LinearLayout,ConstraintLayout,TableLayout
 --------------------------------------------------------------
 1.利用线性布局实现界面。
+     线性布局主要以水平和垂直方式来显示界面中的控件。水平排列时显示顺序从左到右；垂直排列时显示顺序从上到下。控件的排列顺序由orientation决定，vertical表示垂直显示，horizontal表示水平显示。
 主要代码：
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -191,6 +192,7 @@ LinearLayout,ConstraintLayout,TableLayout
 ------------------------------------------------------------------------------
 
 2.利用约束布局实现界面。
+    相对定位是在ConstraintLayout（相对布局）中创建布局的基本构建之一， 这些约束允许您将控件相对于另一个控件进行定位。
 主要代码：
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -316,6 +318,7 @@ LinearLayout,ConstraintLayout,TableLayout
 
 ------------------------------------------------------------------------------
 3.利用表格布局实现界面。
+    表格布局以表格的形式排列控件，通过行和列将界面划分为多个单元格，每个单元格都可以添加控件。表格布局需要和tableRow配合使用，stretchColumn设置列的数量。
 主要代码：
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
